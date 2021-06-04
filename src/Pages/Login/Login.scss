@@ -1,0 +1,120 @@
+.login-wrap {
+  background: #fef1f4;
+  .bg-container {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 15%;
+    width: 40%;
+    margin-top: 30px;
+    .login-wrapper {
+      .login-head {
+        display: flex;
+        img {
+          background: transparent;
+        }
+        .login-head-title {
+          margin: 8px 0 0 9px;
+          font-size: 40px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 0.8;
+          letter-spacing: normal;
+          text-align: left;
+          color: #5e51f4;
+        }
+      }
+
+      .login-form {
+        margin-top: 50px;
+        .login-form-title {
+          margin: 27.5px 5.6px 20px 1px;
+          font-size: 24px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.09;
+          letter-spacing: normal;
+          text-align: left;
+          color: #5e51f4;
+        }
+        .k-textbox {
+          padding: 8px;
+          border: solid 0.5px #ccceff;
+          border-top-color: #ccceff !important;
+        }
+        .k-checkbox {
+          margin: 0 6px;
+        }
+        .input-field {
+          position: relative;
+          width: 350px;
+          height: 40px;
+          margin: 5px 119.5px 10.5px 0;
+          //padding: 5.5px 130px 6px 10px;
+          border-radius: 1.5px;
+          border: solid 0.5px #ccceff;
+          background-color: #ffffff;
+        }
+        .login-form-footer {
+          display: flex;
+          .login-btn {
+            width: 150px;
+            height: 40px;
+            margin: 12px 28px 14px 0.5px;
+            padding: 3.5px 31px 3px;
+            border-radius: 5px;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+            background-color: #5e51f4;
+            color: #ffffff;
+          }
+          .footer-items {
+            width: 200px;
+            height: 20px;
+            margin: 18.5px 133px 18px 25px;
+            label {
+              margin-left: 8px;
+              font-size: 15px;
+              font-weight: 300;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.69;
+              letter-spacing: normal;
+              text-align: left;
+              color: #343a40;
+            }
+          }
+        }
+
+        .register {
+          display: flex;
+          p:first-of-type {
+            color: #5e51f4;
+          }
+          p:last-of-type {
+            color: #0e0ecc;
+            margin-left: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+
+        .forgot-password {
+          margin: 7.9px 1.6px 14.5px 0.5px;
+          padding: 9px 1px 1.5px 0.5px;
+          font-size: 15px;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.69;
+          letter-spacing: normal;
+          text-align: left;
+          color: #0e0ecc;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.general-wrap {
+    .item-row {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      .item-box {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        .item-title {
+          font-size: 14px;
+          color: rgb(95, 95, 95);
+          font-family: 500;
+          margin-bottom: 4px;
+        }
+        input.k-textarea {
+          padding:12px 8px !important;
+        }
+        .k-textarea > .k-input{
+            resize: none;
+        }
+        .k-textarea {
+          border-color: rgba(0, 0, 0, 0.3);
+          border-width: 1px;
+          border-color: rgba(0, 0, 0, 0.3) !important;
+          width: 330px;
+          color: #000;
+          font-weight: 400;
+          background: #fff;
+          &:hover{
+              background: #fff;
+          }
+        }
+        .k-textarea:focus-within{
+            box-shadow: none;
+        }
+        .k-dropdown,
+        .k-dropdowntree {
+          width: 330px;
+          .k-dropdown-wrap {
+            border-color: rgba(0, 0, 0, 0.3);
+            border-width: 1px;
+            border-top-color: rgba(0, 0, 0, 0.3) !important;
+            height: calc(1.125em + 22px);
+            color: #000;
+            font-weight: 400;
+            .k-input{
+                padding: 8px !important;
+                height: calc(1.125em + 22px);
+            }
+            .k-i-arrow-s{
+                font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .k-animation-container {
+    margin-top: 10px;
+    width: 100%;
+  }
+  

@@ -1,0 +1,78 @@
+.customer-wrapper {
+  .window{
+    z-index: 0;
+    .k-window-title{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .k-window-content {
+      padding: 0;
+    }
+   
+    .k-tabstrip-content, .k-tabstrip > .k-content{
+      // padding: 14px 0px 0px 24px;
+      
+    }
+    .k-window-titlebar{
+      padding: 20px 24px 16px;
+      border-bottom: 1px solid rgb(206, 206, 206);
+    }
+    .k-window{
+      z-index: 0;      
+    }
+    .k-content{
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .k-window-actions{
+      display: none;
+    }
+    .k-button-icon{
+      color: gray;
+      .k-icon{
+        font-size: 30px;
+      }
+    }
+    .k-icon{
+      font-size: 24px;
+    }
+    .k-animation-container-shown, .k-animation-container > .k-popup{
+      z-index: 100;
+    }
+    .k-window-buttongroup{
+      border-width: 1px 0 0;
+    }
+    .k-primary{
+      background: #1976d2;
+    }
+    
+    .k-window-buttongroup{
+      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 16px;
+      .k-button {
+        padding: 10px;
+      }
+      .cancle__button {
+        background-color: transparent;
+        border: 1px solid grey;
+        width: 100px;
+      }
+      .save__button {
+        width: 120px;
+      }
+    }
+  }
+}
+body{
+  margin: 0px !important;
+}
+
+button {
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+input, .k-dropdown-wrap {
+  border-radius: 2px !important;
+}

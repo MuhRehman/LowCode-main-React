@@ -1,0 +1,101 @@
+.add-page-modal-container {
+  .k-window {
+    z-index: 0;
+    border-radius: 12px;
+    .k-window-titlebar {
+      background: rgba(14, 15, 17, 255);
+      color: #fff;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      .k-window-title {
+        font-size: 18px;
+      }
+      .k-window-actions {
+        display: none;
+      }
+      .k-button-icon {
+        .k-icon {
+          font-size: 26px;
+        }
+      }
+    }
+    .k-window-content {
+      background: rgba(51, 56, 62, 255);
+      padding: 25px;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      .row-box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        .content-box {
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          label {
+            color: #fff;
+            font-size: 18px;
+          }
+          .k-textbox {
+            border: none;
+            background: #22252a;
+            height: 45px;
+            width: 260px;
+            padding: 0 8px;
+            color: #fff;
+            margin-top: 12px;
+            border-radius: 6px;
+          }
+          .k-textbox::placeholder {
+            color: #fff;
+            font-size: 14px;
+          }
+          .k-dropdown,
+          .k-dropdowntree {
+            //width: 330px;
+            font-family: Helvetica;
+            width: 260px;
+            .k-dropdown-wrap {
+              border: none;
+              background: #22252a;
+              height: 45px !important;
+              color: #fff;
+              margin-top: 12px;
+              border-radius: 6px;
+              .k-input {
+                padding: 8px !important;
+                height: calc(1.125em + 22px);
+              }
+              .k-i-arrow-s {
+                font-size: 18px;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+      .btn-wrap {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 12px;
+        .k-button {
+          border-radius: 4px;
+          height: 45px;
+          background: #f15789;
+          color: #fff;
+          text-transform: capitalize;
+          font-size: 16px;
+          width: 160px;
+        }
+      }
+    }
+  }
+}
+
+.k-list-container{
+  font-family: Helvetica;
+}

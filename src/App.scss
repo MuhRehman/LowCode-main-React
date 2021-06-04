@@ -1,0 +1,131 @@
+.App {
+  font-family: Helvetica;
+}
+body{
+  margin: 0;
+}
+
+
+.primary-color {
+  color: blue;
+}
+
+.w-25 {
+  width: 25% !important;
+}
+.w-30 {
+  width: 30% !important;
+}
+.w-35 {
+  width: 35% !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.h-40 {
+  height: 40px !important;
+}
+
+.w-120px{
+  width: 120px;
+}
+
+.display-table {
+  display: table !important;
+}
+
+.display-table-cell {
+  display: table-cell !important;
+  vertical-align: middle !important;
+}
+
+.border-bottom-unset {
+  border-bottom: unset !important;
+}
+
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.table-more-icon button {
+  border: none;
+  background: none;
+}
+
+.table-more-icon button:active {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.table-more-icon button:focus {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.material-input {
+  padding: 8px !important;
+  background: white !important;
+  border: 1px solid #b7b5b5 !important;
+  font-size: 14px !important;
+}
+
+.k-textbox-container .k-textbox {
+  border-top-color: #b7b5b5 !important;
+  margin-top: 10px;
+}
+
+.k-textbox-container::after {
+  background-color: #b7b5b5 !important;
+  transition: none;
+}
+
+.k-textbox-container {
+  width: 100% !important;
+}
+
+.k-tabstrip-items .k-item.k-state-active::after {
+  border-color: #2666E3 !important;
+}
+
+.k-tabstrip-items .k-item.k-state-active {
+  color: #2666E3 !important;
+  font-weight: bold;
+}
+
+.k-tabstrip-items {
+  background: ghostwhite;
+}
+
+.k-button.k-primary {
+  border-color: #2666E3 !important;
+  background-color: #2666E3 !important;
+}
+
+.primary-button .k-button {
+  border-color: #2666E3 !important;
+  background-color: #2666E3 !important;
+  color: white;
+}
+
+.primary-button .k-button-icon {
+  color: white !important;
+  margin-left: 1px;
+}
+
+.k-checkbox:checked {
+  border-color: #2666E3 !important;
+  background-color: #2666E3 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #dadada;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(133, 133, 133);
+  border-radius: 50px;
+}

@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 373.5px;
+  width: 1166px;
+  .k-window-content{
+    overflow: hidden;
+  }
+
+  .title-bar {
+    width: 1171px;
+    align-items: center;
+    height: 23px;
+    display: flex;
+    border:  1px solid #C6C6C6;
+    border-bottom: none !important;
+    p {
+      flex-direction: row;
+      height: 14px;
+      //width: 71px;
+      color: #595959;
+      font-family: Helvetica;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    input {
+      margin-left: 25px;
+    }
+
+    .p1 {
+      width: 65px;
+      margin-left: 45px;
+      margin-right: 10px;
+    }
+
+    .p2 {
+      width: 101px;
+      margin-right: 95px;
+    }
+
+    .p3 {
+      width: 101px;
+      margin-right: 150px;
+    }
+
+    .p4 {
+      width: 90px;
+      margin-right: 25px;
+    }
+
+    .p5 {
+      width: 75px;
+      margin-right: 16px;
+    }
+
+    .p6 {
+      width: 71px;
+      margin-right: 21px;
+    }
+
+    .p7 {
+      width: 65px;
+      margin-right: 29px;
+    }
+
+    .p8 {
+      width: 71px;
+      margin-right: 10px;
+    }
+  }
+
+  .k-window-content {
+    .example-config {
+      .right-side-box {
+        border: none !important;
+        .main {
+          .All-content {
+            //height: 390px !important;
+            .k-widget {
+              //height: 379px !important;
+              height: 456px !important;
+
+            }
+
+            .k-grid {
+              //height: 379px !important;
+              height: 456px !important;
+              width: 1173px;
+
+              .k-grid-header {
+                .k-grid-header-wrap {
+                  table {
+                    thead {
+                      .k-link {
+                        padding: 6px 24px;
+                      }
+
+                      .k-header {
+                        position: absolute;
+                      }
+
+                      tr {
+                        th {
+                          .k-header {
+                            padding: 0 0 0 0;
+                          }
+                        }
+
+                        th:nth-child(2) {
+                          padding-left: 0 !important;
+
+                          .k-header {
+                            padding: 0 0 !important;
+                            margin: 0 0 !important;
+                            width: 65px;
+                          }
+
+                          .k-link {
+                            width: 65px;
+                            padding: 6px 0 6px 30px !important;
+                          }
+                        }
+
+                        th:nth-child(3) {
+                          //padding-left: 0!important;
+                          .k-header {
+                            padding: 0 !important;
+                            //width: 70px;
+                          }
+
+                          .k-link {
+                            width: 45px;
+                            //padding:6px 0 6px 0px !important;
+                            padding-left: 0 !important;
+                          }
+
+                        }
+
+                        th:nth-child(4) {
+                          .k-link {
+                            width: 65px;
+                            padding: 0 0 0 14px;
+                          }
+
+                          .k-header {
+                            padding: 0 !important;
+                          }
+                        }
+                      }
+
+                      //tr{
+                      //    .k-header{
+                      //        //width: 70px;
+                      //        margin: 0;
+                      //        padding: 0;
+                      //    }
+                      //    .k-link{
+                      //        width: 70px;
+                      //        margin:0;
+                      //        padding: 0;
+                      //    }
+                      //
+                      //}
+
+                    }
+
+                    tbody {
+
+                      .k-state-default {
+                        //padding-left: 10px;
+                      }
+
+                      .k-link {
+                        //padding: 3px 13px;
+                      }
+                    }
+
+                  }
+                }
+              }
+              .k-grid-container{
+                .k-grid-content{
+                  overflow: hidden;
+                  tr:nth-child(even) {
+                    background-color: #F7F7F7 !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//    padding: 3px 13px;

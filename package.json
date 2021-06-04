@@ -1,0 +1,70 @@
+{
+  "name": "auth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lourenci/react-kanban": "^2.1.0",
+    "@progress/kendo-data-query": "^1.5.5",
+    "@progress/kendo-drawing": "^1.10.1",
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-react-buttons": "^4.6.0",
+    "@progress/kendo-react-data-tools": "^4.6.0",
+    "@progress/kendo-react-dateinputs": "^4.6.0",
+    "@progress/kendo-react-dialogs": "^4.6.0",
+    "@progress/kendo-react-dropdowns": "^4.6.0",
+    "@progress/kendo-react-grid": "^4.6.0",
+    "@progress/kendo-react-inputs": "^4.6.0",
+    "@progress/kendo-react-intl": "^4.6.0",
+    "@progress/kendo-react-layout": "^4.6.0",
+    "@progress/kendo-react-notification": "^4.6.0",
+    "@progress/kendo-react-progressbars": "^4.6.0",
+    "@progress/kendo-react-treeview": "^4.6.0",
+    "@progress/kendo-theme-default": "^4.38.1",
+    "@progress/kendo-theme-material": "^3.33.1",
+    "@progress/kendo-ui": "^2021.2.511",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "node-sass": "6.0.0",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dnd": "^14.0.2",
+    "react-dnd-html5-backend": "^14.0.0",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.3",
+    "react-dropzone": "^11.3.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "set PORT=3007 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": 0,
+      "no-control-regex": 0,
+      "eqeqeq": 0
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
