@@ -4,6 +4,7 @@ import "./App.scss";
 import CustomizePage from "./Pages/CustomizePage/CustomizePage";
 import EditPage from "./Pages/EditPage/EditPage";
 import ForgotPassword from "./Pages/ForgotPassword/ForgotPassword";
+import MainPage from "./Pages/MainPage/Mainpage";
 import Login from "./Pages/Login/Login";
 import PageList from "./Pages/PageList/PageList";
 import Signup from "./Pages/Signup/Signup";
@@ -28,6 +29,7 @@ const App = (props) => {
         <Route exact path={'/advance-search'} component={AdvanceSearch} />
         <Route exact path={'/product-search'} component={ProductSearch} />
         <Route exact path={'/party-picker'} component={PartyPicker} />
+        <Route exact path={'/main-page'} component={MainPage} />
         <Route exact path={'/'} component={Login} />
         <Redirect to='/' />
       </Switch>
